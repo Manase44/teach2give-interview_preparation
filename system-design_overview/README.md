@@ -50,4 +50,17 @@ There are various method and techniques used to design the system architecture, 
     - _Load balancing_  which involves distributin incoming requests across multiple servers to ensure optimal utilization and availability.  
 
     - _Retry and timeout strategies_ which ensure availability of resources by retrying making of the request after a specifid interval of time.
+
+## Advanced Concepts of System Design
+1. ### Content Delivery Netwwork 
+      This is a distributed server network that is used to deliver resources faster, decrease latency, and improves the performance of the system. Resources fro the original server are cached and accessed fro there in the subsequent requests.
+2. ### Domain Name System
+      Is a distributed naming system for computers resources such as websites. It maps the domain name with a unique IP addres, such that, request ma ethrough that domain name, returns the resource of the respective IP address.
+3. ### Caching
+      This is a mechanism to store copies of resources in a temporary storage, so that they can be access from their more quickly.
+4. ### Proxies
+      This is an application that acts as intermediary between the client and the actual server and used for caching resources. Request to the server by the client are made through the proxy.
 ## Components of System Design
+
+
+
