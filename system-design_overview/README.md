@@ -40,7 +40,14 @@ There are various method and techniques used to design the system architecture, 
       __Throughput__ is the number of operations a system can handle in a given time. It is emasured in megabytes per second. Scaling up the server can increase the system's throughput.
 3. ### Consistency patterns and availability patterns
     
-    __Consistency pattern__  
+    __Consistency pattern__  is a property that ensure syncronization within a system by enabling all nodes within the system to see the same data at the time. There are various consistency patterns including:  
+    - _Strong consistency_  which ensures that each request gets freshly updated data. This way it peioritizes consistency over availability of the data.  
+
+    - _weak consistency_ which focuses on fast access to data. The data may be fresh or cached.
+    - _Eventual balancing_ which prioritize availability of the data and not consistency. After update, data may not be immediately available.
     
-    __Availability pattern__
+    __Availability pattern__ is the proportion of time that the system or  particular service is accessible and operational. There are various availability patterns n system design, they include:
+    - _Load balancing_  which involves distributin incoming requests across multiple servers to ensure optimal utilization and availability.  
+
+    - _Retry and timeout strategies_ which ensure availability of resources by retrying making of the request after a specifid interval of time.
 ## Components of System Design
