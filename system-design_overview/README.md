@@ -1,5 +1,4 @@
-- [SYSTEM DESIGN](#system-design)
-- [Understanding System Design](#understanding-system-design)
+- [Syste Design](#syste-design)
   - [Importance of System Design](#importance-of-system-design)
   - [Essential Design Methods in System Design](#essential-design-methods-in-system-design)
   - [Fundamental Concepts of System Design](#fundamental-concepts-of-system-design)
@@ -7,11 +6,10 @@
   - [Components of System Design](#components-of-system-design)
   - [Steps For Preparing System Design](#steps-for-preparing-system-design)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+# Syste Design
 
-# SYSTEM DESIGN
-# Understanding System Design
-___
+![A picture of what is system design](./what-is-system-design.jpeg)  
+
 System design is the process of defining the architecture, models, and components of a system in order to meet specific user requirements while considering factors like scalability, aintainability, and perfomance.  
 ## Importance of System Design
 - Gives a clear understanding of the user functional and non-functional requirements and how exactly to achieve them.  
