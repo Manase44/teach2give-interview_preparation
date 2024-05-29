@@ -60,7 +60,22 @@ There are various method and techniques used to design the system architecture, 
       This is a mechanism to store copies of resources in a temporary storage, so that they can be access from their more quickly.
 4. ### Proxies
       This is an application that acts as intermediary between the client and the actual server and used for caching resources. Request to the server by the client are made through the proxy.
-## Components of System Design
 
+
+## Components of System Design
+1. ### Microservices and Service Discovery
+      Microservices is an architecture style that structures applications as a collection of independent, deployable, and losely coupled services. Each service is identified by a unique ID and name. The ___Service discovery___ provides a platform for the various services to communicate and allow scalability. 
+2. ### Database Systems: RDBMS and NoSQL
+      A database system is an electronic storage of organized collection of data or informatiion. There are two main categories of databases, they include:
+      - **Relational database management system** - which uses _SQL(Structured Query Language)_. They are used to store structured data. They store data in a table format which can only be scaled vertically.  
+      
+      - **NoSQL** - which stores data in key value pairs and can be scaled horizonatlly. It is used to store unstructured data.
+3. ### Communicatioon Protocols
+
+      These are rules that guide the exchange of messages between two system. There are various communication protocols including but not limited to:  
+      - HTTP/HTTPS
+      - TCP/IP
+      - UDP
+      - WebSockets
 
 
