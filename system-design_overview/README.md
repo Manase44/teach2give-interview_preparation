@@ -1,4 +1,6 @@
-# System Design
+# SYSTEM DESIGN
+# Understanding System Design
+___
 System design is the process of defining the architecture, models, and components of a system in order to meet specific user requirements while considering factors like scalability, aintainability, and perfomance.  
 ## Importance of System Design
 - Gives a clear understanding of the user functional and non-functional requirements and how exactly to achieve them.  
@@ -77,5 +79,16 @@ There are various method and techniques used to design the system architecture, 
       - TCP/IP
       - UDP
       - WebSockets
+
+## Steps For Preparing System Design
+1. **Requirements Clarification**: The first step for preparing system design for a software is getting to understande the syste requirements. There are two types of requirements:
+      - **Function requirements** - These are the features and functions that the system should have. For example, _"User authentication"_,  in a system is a function requirement.
+      - **Non-Function requirements** - These are set of specification that describe the system's capabilities and constraints. For exapmle, _"scalability"_ , is a non-function requirement.
+2. **Estimation of Resources**: After defining the requirements of the system, the next step is to decide what kind of resources will be used to build the system. For example, considering the amount of requests, you may decide on the number of servers, or even the type of database the system is going to use.
+
+3. **Defining the system interface; describing the API endpoints and what to expect form each API**
+4. **Defining the data model and choosing the type of database to be used by the system.**
+5. **Analyze the system design to ensure that t meets both the functional and no functional requirements.**
+7. **Identify the bottlenecks in the system and discuss the optimal solutions to resolve them**
 
 
