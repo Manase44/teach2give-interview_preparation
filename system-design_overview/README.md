@@ -1,3 +1,14 @@
+- [SYSTEM DESIGN](#system-design)
+- [Understanding System Design](#understanding-system-design)
+  - [Importance of System Design](#importance-of-system-design)
+  - [Essential Design Methods in System Design](#essential-design-methods-in-system-design)
+  - [Fundamental Concepts of System Design](#fundamental-concepts-of-system-design)
+  - [Advanced Concepts of System Design](#advanced-concepts-of-system-design)
+  - [Components of System Design](#components-of-system-design)
+  - [Steps For Preparing System Design](#steps-for-preparing-system-design)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # SYSTEM DESIGN
 # Understanding System Design
 ___
